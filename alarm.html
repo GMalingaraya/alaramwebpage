@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Digital clock</title>
+    <link rel="stylesheet" href="alarm.css">
+</head>
+<body>
+    <div>
+        <p>Digital alarm</p>
+        <img src="clockimage-removebg-preview.png" width="300px" height="350px">
+        <div class="all">
+            <h1 class="time">00:00:00 PM</h1>
+            <div class="content">
+                <div class="column">
+                    <select id="hour">
+                        <option value="hour">Hour</option>
+                    </select>
+                    <select id="minute">
+                        <option value="minute">Minute</option>
+                    </select>
+                    <select id="ampm">
+                        <option value="AM/PM">AM/PM</option>
+                    </select>
+                </div><br>
+                <button id="setAlarmBtn" class="btn">Set Alarm</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="alarm.js"></script>
+</body>
+</html>

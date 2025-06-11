@@ -1,0 +1,36 @@
+body {
+   background-image: url('wallpaper4.jpeg');
+   width: 500px;
+}
+img {
+   position: relative;
+   left: 90px;
+   margin-top: 30px;
+}
+p{
+   position: relative;
+   left: 500px;
+   text-decoration: underline;
+   font-size: xx-large;
+}
+.all {
+   position: relative;
+   left: 500px;
+   bottom: 350px;
+}
+.all select {
+   position: relative;
+   right:  40px;
+}
+.column select{
+   border: 1px solid bisque;
+   padding: 8px;
+}
+.btn {
+   position: relative;
+   left: -10px;
+   padding: 8px;
+   width: 180px;
+   background: #4697e7;
+   margin-top: 10px;
+}
